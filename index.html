@@ -26,14 +26,14 @@
       var y = document.getElementById("email");
       var z = document.getElementById("alamat");
       var w = document.getElementById("message");
-      if (y.value == "") {
-        alert("Please write your email.");
-        y.focus();
-        return false;
-      }
       if (x.value == "") {
         alert("Please write your name.");
         x.focus();
+        return false;
+      }
+      if (y.value == "") {
+        alert("Please write your email.");
+        y.focus();
         return false;
       }
       if (z.value == "") {

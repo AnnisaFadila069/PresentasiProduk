@@ -3,6 +3,10 @@
 .nav-link{
     margin-right: 35px;
 }
+
+.nav-link:hover{
+  border-bottom: 3px solid white;
+}
  
 body{
   overflow-x: hidden;
